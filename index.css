@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* heder style */
+.header {
+    background-color: cadetblue;
+}
+
+/* logostyle */
+.navlogo img {
+    width: 100px;
+}
+
+/* navbar style */
+.header nav {
+    display: flex;
+}
+
+.header nav {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav span ul li {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.header nav span ul li a {
+    color: black;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: solid;
+}
+
+.header nav span ul li a:hover {
+    padding: 3px;
+    box-shadow: 5px 5px 3px grey;
+    color: red;
+}
+
+/* SerchBar style */
+.topsearchbar {
+    height: 20px;
+}
+
+#topsearchbar {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.topsearchbutton {
+    width: 125px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: solid;
+
+}
+
+.topsearchbutton:hover {
+    width: 125px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: 'Bree Serif', serif;
+    text-decoration: solid;
+    background-color: blanchedalmond;
+}
+
+/* main page css */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.class1 {
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px grey;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+}
+
+.class1_image img {
+    width: 500px;
+}
+
+#class1_text_heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px;
+}
+
+#class1_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px 0px 100px;
+}
+
+.class1_text {
+    margin: 20px;
+    padding: 20px;
+}
+
+#explore_button {
+    font-size: 20px;
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 250px;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+}
+
+#explore_button:hover {
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    box-shadow: 2px 2px 2px grey;
+}
+
+/* footerstyle */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-family: 'Bree Serif', serif;
+    text-decoration: solid;
+}
